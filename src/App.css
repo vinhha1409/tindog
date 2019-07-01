@@ -101,7 +101,7 @@ p {
 }
 
 .testimonial-image {
-  width: 10%;
+  width: 20%;
   border-radius: 100%;
   margin: 20px;
 }
@@ -153,6 +153,15 @@ p {
 
 .social-icon {
   margin: 20px 15px;
+}
+/* Members section */
+#member{
+  background-color: #eaf0b7;
+}
+.mem-image {
+  width: 30%;
+  border-radius: 100%;
+  margin: 20px;
 }
 
 @media(max-width: 1028px) {

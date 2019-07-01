@@ -36,7 +36,7 @@ const NaviBar = () => (
           <Nav.Link  href="#cta">Download</Nav.Link>
         </Nav.Item> 
         <Nav.Item>
-          <Nav.Link  href="#cta">Members</Nav.Link>
+          <Nav.Link  href="#member">Members</Nav.Link>
         </Nav.Item> 
       </Nav>
     </Navbar.Collapse>

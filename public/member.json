@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "address": "Pebbles,New York",  
+        "country": "USA",
+        "name": "Golden",
+        "description": "I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.",
+        "photo":"https://www.pexels.com/photo/pembroke-welsh-corgi-lying-on-the-sand-under-white-cloud-blue-sky-164186/"
+    },
+    {
+        "id": 2,
+        "address": "Beverly, Illinois",
+        "country": "USA",
+        "name": "Natasha",
+        "description": "My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.",
+        "photo":"https://www.pexels.com/photo/pembroke-welsh-corgi-lying-on-the-sand-under-white-cloud-blue-sky-164186/"
+    }
+]
