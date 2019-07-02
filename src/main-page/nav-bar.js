@@ -1,5 +1,6 @@
 import React from 'react';
 import {Navbar, Nav} from 'react-bootstrap';
+import {Link} from 'react-router-dom';
 const NaviBar = () => (
   /*<nav class="nav-bar navbar-expand-lg navbar-dark ">
       
@@ -22,11 +23,13 @@ const NaviBar = () => (
         </div>
       </nav>*/
   <Navbar  expand="lg">
-    <Navbar.Brand href="#home">tindog</Navbar.Brand>
+    <Link to="/">
+      <Navbar.Brand>tindog</Navbar.Brand>
+    </Link>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="ml-auto">
-        <Nav.Item>
+        <Nav.Item >
           <Nav.Link  href="#footer">Contact</Nav.Link>
         </Nav.Item>
         <Nav.Item>
@@ -35,8 +38,12 @@ const NaviBar = () => (
         <Nav.Item>
           <Nav.Link  href="#cta">Download</Nav.Link>
         </Nav.Item> 
-        <Nav.Item>
-          <Nav.Link  href="#member">Members</Nav.Link>
+        <Nav.Item>         
+          <Nav.Link>
+            <Link className="mem-link"to="/member">
+              Members
+            </Link>  
+          </Nav.Link>
         </Nav.Item> 
       </Nav>
     </Navbar.Collapse>

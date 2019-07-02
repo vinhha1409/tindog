@@ -14,23 +14,19 @@ class member extends Component{
         return(
             <div>
                 <div className="row">
-                    <div className="col-md-7">
-                        <img src={`${member.photo}`} alt="Member"/>
+                    <div className="col">
+                        <img className="mem-image" src={`${member.photo}`} alt="Member"/>
+                    </div>
+                    <div className="col-8 content">
+                        <h3 className="col-md-12">{member.description}</h3>
+                        <h5 className="col-md-12">{member.address}</h5>
+                        <h6 className="col-md-12">{member.country}</h6>
+                        <h6 className="col-md-12 ">{member.name}</h6>
+                        <img className="emailIcon" src={emailIcon} height="50" alt="inquiry"
+                        onClick={this.inquiryToggle}/>
+                        {inquiry}
                     </div>
                 </div> 
-                <div className="row">
-                    <h3 className="col-md-12">{member.description}</h3>
-                </div>
-                <div className="row mt-2">
-                    <h5 className="col-md-12">{member.address}</h5>
-                    <h6 className="col-md-12">{member.country}</h6>
-                </div>
-                <div className="col-md-5">
-                    <p className="name">{member.name}</p>
-                    <img src={emailIcon} height="50" alt="inquiry"
-                        onClick={this.inquiryToggle}/>
-                    {inquiry}
-                </div>  
             </div>
         );
     }

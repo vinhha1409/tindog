@@ -5,13 +5,7 @@ const RandomMem = (props) => {
     console.log("liệu có vào đây khônggg");
 if(props.member) return (
     
-    <div>
-        
-        <div className="row featureHouse">
-            <h2 className="col-md-12 text-center">
-                 Member
-            </h2>
-        </div>
+    <div>                
         <Member member={props.member}/>
     </div>
 )

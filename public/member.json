@@ -3,9 +3,9 @@
         "id": 1,
         "address": "Pebbles,New York",  
         "country": "USA",
-        "name": "Golden",
+        "name": "Rex",
         "description": "I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.",
-        "photo":"https://www.pexels.com/photo/pembroke-welsh-corgi-lying-on-the-sand-under-white-cloud-blue-sky-164186/"
+        "photo":"https://images.pexels.com/photos/1345191/pexels-photo-1345191.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
         "id": 2,
@@ -13,6 +13,22 @@
         "country": "USA",
         "name": "Natasha",
         "description": "My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.",
-        "photo":"https://www.pexels.com/photo/pembroke-welsh-corgi-lying-on-the-sand-under-white-cloud-blue-sky-164186/"
+        "photo":"https://images.pexels.com/photos/1663421/pexels-photo-1663421.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    },
+    {
+        "id": 3,
+        "address": "Doi Can, Ha Noi",
+        "country": "Viet Nam",
+        "name": "Bốp",
+        "description": "Woof woof woof ( Nice to meet you all )",
+        "photo":"https://images.pexels.com/photos/1851471/pexels-photo-1851471.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    },
+    {
+        "id": 4,
+        "address": "Xuan La, Ha Noi",
+        "country": "Viet Nam",
+        "name": "Mun",
+        "description": "I would like to meet any female dog regardless type or size and I have a huge interest in Corgi in special <3",
+        "photo":"https://images.pexels.com/photos/8700/wall-animal-dog-pet.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     }
 ]
